@@ -659,7 +659,7 @@
      flex-wrap: wrap;
  }
 
- .profile-tag a {
+ .profile-tag span {
      color: #5B73E8;
      font-size: 12px;
      line-height: 15px;
@@ -670,11 +670,6 @@
      transition: 0.3s;
  }
 
- .profile-tag a:hover {
-     color: #fff;
-     background-color: #5B73E8;
-     border-color: transparent;
- }
 
  .profile-ratings .rating-group {
      display: inline-flex;
@@ -720,7 +715,7 @@
  -------------------------------*/
 
  .left-content {
-     width: calc(100% - 330px);
+     width: calc(100% - 320px);
  }
 
  .media-box.box-v2 h6.box-title {
@@ -731,13 +726,13 @@
      padding: 29px 25px 28px 30px;
  }
 
+
  .video-slider,
  .gallery-slider,
  .rp-slider {
-     width: calc(100% - 5px);
+     width: calc(100% - 50px);
+     left: 25px;
  }
-
-
 
  /*-------------Profile box-------------*/
  .profile-about p {
@@ -777,7 +772,7 @@
  }
 
  .rm-item-img {
-     width: 26%;
+     width: 230px;
      border-top-left-radius: 10px;
      border-bottom-left-radius: 10px;
      height: 100%;
@@ -785,7 +780,7 @@
  }
 
  .rm-item-info {
-     width: 71%;
+     width: calc(100% - 255px);
      display: flex;
      flex-direction: column;
      justify-content: space-between;
@@ -999,8 +994,8 @@
 
  .rp-item-info h6 {
      color: #fff;
-     font-size: 16px;
-     line-height: 18px;
+     font-size: 12px;
+     line-height: 13px;
      margin: 0 0 5px;
 
  }
@@ -1135,6 +1130,7 @@
      justify-content: flex-start;
      align-items: flex-start;
      margin: 0 0 25px;
+     padding-right: 10px;
  }
 
  .chat-user-name {
@@ -1142,12 +1138,13 @@
      line-height: 15px;
      text-transform: capitalize;
      margin: 0;
+     color: #5B73E8;
  }
 
  .chat-time {
      font-size: 12px;
      line-height: 15px;
-     color: #5B73E8;
+
      display: block;
      font-weight: 600;
  }
