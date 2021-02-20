@@ -730,8 +730,12 @@
  .video-slider,
  .gallery-slider,
  .rp-slider {
-     width: calc(100% - 50px);
-     left: 25px;
+     width: calc(100% - 30px);
+     left: 15px;
+ }
+
+ .gallery-item img {
+     border-radius: 10px;
  }
 
  /*-------------Profile box-------------*/
@@ -901,7 +905,7 @@
 
  }
 
- .owl-prev {
+ /* .owl-prev {
      left: -6px;
      box-shadow: 6px 1px 16px -3px rgba(0, 0, 0, 0.4);
      border-top-left-radius: 10px;
@@ -915,18 +919,25 @@
      box-shadow: -6px 1px 16px 3px rgba(0, 0, 0, 0.4);
      border-top-right-radius: 10px;
      border-bottom-right-radius: 10px;
+ }*/
+ .owl-prev {
+     left: -35px;
+ }
+
+ .owl-next {
+     right: -35px;
  }
 
  .owl-prev i,
  .owl-next i {
-     color: #fff;
+     color: #5B73E8;
      height: 100%;
-     background: #5B73E8;
-     width: 100%;
+     /*background: #;*/
+     /*width: 100%;*/
      display: flex;
      flex-direction: column;
      justify-content: center;
-     font-size: 25px;
+     font-size: 29px;
  }
 
  .owl-prev i {
